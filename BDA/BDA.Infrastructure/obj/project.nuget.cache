@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wNN7Qbc5LGg=",
+  "dgSpecHash": "0mB2ScnEgMM=",
   "success": true,
   "projectFilePath": "/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/BDA.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jarek/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.5/microsoft.extensions.dependencyinjection.10.0.5.nupkg.sha512",
+    "/Users/jarek/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.5/microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

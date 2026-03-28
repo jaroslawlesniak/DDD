@@ -15,3 +15,4 @@
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Domain.pdb
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.csproj.AssemblyReference.cache
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infr.28DAD724.Up2Date
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.sourcelink.json

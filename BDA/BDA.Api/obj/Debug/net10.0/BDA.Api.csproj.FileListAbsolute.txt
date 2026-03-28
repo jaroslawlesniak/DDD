@@ -6,15 +6,12 @@
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/BDA.Api.runtimeconfig.json
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/BDA.Api.dll
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/BDA.Api.pdb
-/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.csproj.AssemblyReference.cache
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.AssemblyInfoInputs.cache
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.AssemblyInfo.cs
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.csproj.CoreCompileInputs.cache
-/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.MvcApplicationPartsAssemblyInfo.cs
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
@@ -39,3 +36,4 @@
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/BDA.Application.pdb
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/BDA.Infrastructure.pdb
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/bin/Debug/net10.0/BDA.Domain.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Api/obj/Debug/net10.0/BDA.Api.sourcelink.json

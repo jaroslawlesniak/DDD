@@ -9,3 +9,4 @@
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Contracts/obj/Debug/net10.0/refint/BDA.Contracts.dll
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Contracts/obj/Debug/net10.0/BDA.Contracts.pdb
 /Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Contracts/obj/Debug/net10.0/ref/BDA.Contracts.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Contracts/obj/Debug/net10.0/BDA.Contracts.sourcelink.json

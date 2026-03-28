@@ -10,4 +10,8 @@
     <ProjectReference Include="..\BDA.Domain\BDA.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.5" />
+  </ItemGroup>
+
 </Project>
