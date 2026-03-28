@@ -1,0 +1,15 @@
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/bin/Debug/net10.0/BDA.Application.deps.json
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/bin/Debug/net10.0/BDA.Application.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/bin/Debug/net10.0/BDA.Application.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.AssemblyInfoInputs.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.AssemblyInfo.cs
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.csproj.CoreCompileInputs.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/refint/BDA.Application.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/ref/BDA.Application.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/bin/Debug/net10.0/BDA.Domain.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/bin/Debug/net10.0/BDA.Domain.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Application.csproj.AssemblyReference.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Application/obj/Debug/net10.0/BDA.Appl.4E0D944C.Up2Date

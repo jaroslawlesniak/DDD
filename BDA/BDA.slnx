@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BDA.Api/BDA.Api.csproj" />
+  <Project Path="BDA.Application/BDA.Application.csproj" />
+  <Project Path="BDA.Contracts/BDA.Contracts.csproj" />
+  <Project Path="BDA.Domain/BDA.Domain.csproj" />
+  <Project Path="BDA.Infrastructure/BDA.Infrastructure.csproj" />
+</Solution>

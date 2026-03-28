@@ -1,0 +1,11 @@
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/bin/Debug/net10.0/BDA.Domain.deps.json
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/bin/Debug/net10.0/BDA.Domain.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/bin/Debug/net10.0/BDA.Domain.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/BDA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/BDA.Domain.AssemblyInfoInputs.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/BDA.Domain.AssemblyInfo.cs
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/BDA.Domain.csproj.CoreCompileInputs.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/BDA.Domain.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/refint/BDA.Domain.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/BDA.Domain.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Domain/obj/Debug/net10.0/ref/BDA.Domain.dll

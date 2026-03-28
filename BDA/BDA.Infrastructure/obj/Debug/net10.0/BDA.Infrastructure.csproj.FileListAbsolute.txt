@@ -1,0 +1,17 @@
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Infrastructure.deps.json
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Infrastructure.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Infrastructure.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.AssemblyInfoInputs.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.AssemblyInfo.cs
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/refint/BDA.Infrastructure.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/ref/BDA.Infrastructure.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Application.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Domain.dll
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Application.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/bin/Debug/net10.0/BDA.Domain.pdb
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infrastructure.csproj.AssemblyReference.cache
+/Users/jarek/Desktop/Learning/DomainDrivenDesign/BDA/BDA.Infrastructure/obj/Debug/net10.0/BDA.Infr.28DAD724.Up2Date
