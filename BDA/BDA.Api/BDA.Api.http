@@ -1,6 +1,0 @@
-@BDA.Api_HostAddress = http://localhost:5293
-
-GET {{BDA.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
