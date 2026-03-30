@@ -1,6 +1,8 @@
 using BDA.Application.Common.Interfaces.Authentication;
+using BDA.Application.Common.Interfaces.Persistence;
 using BDA.Application.Common.Interfaces.Services;
 using BDA.Infrastructure.Authentication;
+using BDA.Infrastructure.Persistence;
 using BDA.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +18,8 @@ public static class DependencyInjection
         
         services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
+
+        services.AddScoped<IUserRepository, UserRepository>();
 
         return services;
     }

@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using BDA.Application.Common.Interfaces.Authentication;
 using BDA.Application.Common.Interfaces.Services;
+using BDA.Domain.Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
@@ -13,7 +14,7 @@ public sealed class JwtTokenGenerator(IOptions<JwtSettings> jwtSettings, IDateTi
 {
     private readonly JwtSettings _jwtSettings = jwtSettings.Value;
 
-    public string GenerateToken(Guid userId, string firstName, string lastName)
+    public string GenerateToken(User user)
     {
         var signingCredentials = new SigningCredentials(
             new SymmetricSecurityKey(
@@ -22,9 +23,9 @@ public sealed class JwtTokenGenerator(IOptions<JwtSettings> jwtSettings, IDateTi
         
         var claims = new[]
         {
-            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
-            new Claim(JwtRegisteredClaimNames.GivenName, firstName),
-            new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+            new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
         };
 
