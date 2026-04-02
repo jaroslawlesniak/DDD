@@ -1,5 +1,7 @@
+using BDA.Api.Errors;
 using BDA.Application;
 using BDA.Infrastructure;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
@@ -7,10 +9,14 @@ var builder = WebApplication.CreateBuilder(args);
         .AddApplication()
         .AddInfrastructure(builder.Configuration)
         .AddControllers();
+
+    builder.Services
+        .AddSingleton<ProblemDetailsFactory, BdaProblemDetailsFactory>();
 }
 
 var app = builder.Build();
 {
+    app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.MapControllers();
     app.Run();
