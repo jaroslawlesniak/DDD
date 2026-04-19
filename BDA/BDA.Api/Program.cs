@@ -1,4 +1,4 @@
-using BDA.Api.Errors;
+using BDA.Api.Common.Errors;
 using BDA.Application;
 using BDA.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Infrastructure;

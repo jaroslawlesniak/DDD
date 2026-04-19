@@ -1,10 +1,12 @@
 using System.Diagnostics;
+using BDA.Api.Http;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
 
-namespace BDA.Api.Errors;
+namespace BDA.Api.Common.Errors;
 
 public class BdaProblemDetailsFactory : ProblemDetailsFactory
 {
@@ -53,6 +55,10 @@ public class BdaProblemDetailsFactory : ProblemDetailsFactory
         }
 
         var traceId = Activity.Current?.Id ?? httpContext?.TraceIdentifier;
-        if (traceId != null) problemDetails.Extensions["traceId"] = traceId;
+        if (traceId != null)
+            problemDetails.Extensions["traceId"] = traceId;
+
+        if (httpContext?.Items[HttpContextItemKeys.Errors] is List<Error> errors)
+            problemDetails.Extensions.Add("errorsCodes", errors.Select(error => error.Code));
     }
 }
