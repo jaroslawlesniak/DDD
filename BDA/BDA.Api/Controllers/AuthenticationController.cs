@@ -1,24 +1,25 @@
-using BDA.Application.Services.Authentication;
+using BDA.Application.Authentication.Commands.Register;
+using BDA.Application.Authentication.Common;
+using BDA.Application.Authentication.Queries.Login;
 using Microsoft.AspNetCore.Mvc;
 
 using BDA.Contracts.Authentication;
 using BDA.Domain.Common.Errors;
+using MediatR;
 
 namespace BDA.Api.Controllers;
 
 [Route("auth")]
-public class AuthenticationController(IAuthenticationService _authenticationService) : ApiController
+public class AuthenticationController(ISender mediator) : ApiController
 {
     [HttpPost("register")]
-    public IActionResult Register(RegisterRequest request)
+    public async Task<IActionResult> Register(RegisterRequest request)
     {
-        var authResult = _authenticationService.Register(
-            request.FirstName,
-            request.LastName,
-            request.Email,
-            request.Password);
+        var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
 
-        return authResult.Match(
+        var result = await mediator.Send(command);
+
+        return result.Match(
             value => Ok(MapAuthResult(value)),
             Problem);
     }
@@ -34,16 +35,13 @@ public class AuthenticationController(IAuthenticationService _authenticationServ
     }
 
     [HttpPost("login")]
-    public IActionResult Login(LoginRequest request)
+    public async Task<IActionResult> Login(LoginRequest request)
     {
-        var authResult = _authenticationService.Login(
-            request.Email,
-            request.Password);
+        var query = new LoginQuery(request.Email, request.Password);
 
+        var authResult = await mediator.Send(query);
         if (authResult.IsError && authResult.FirstError == Errors.Authentication.InvalidCredentials)
-        {
             return Problem(statusCode: StatusCodes.Status401Unauthorized, title: authResult.FirstError.Description);
-        }
 
         return authResult.Match(
             value => Ok(MapAuthResult(value)),
