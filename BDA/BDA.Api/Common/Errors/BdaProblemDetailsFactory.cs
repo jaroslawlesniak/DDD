@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using BDA.Api.Http;
+using BDA.Api.Common.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;

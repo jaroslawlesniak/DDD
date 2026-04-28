@@ -1,4 +1,4 @@
-using BDA.Api.Http;
+using BDA.Api.Common.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 

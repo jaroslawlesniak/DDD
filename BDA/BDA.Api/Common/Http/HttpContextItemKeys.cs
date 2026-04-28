@@ -1,4 +1,4 @@
-namespace BDA.Api.Http;
+namespace BDA.Api.Common.Http;
 
 public class HttpContextItemKeys
 {

@@ -1,17 +1,13 @@
-using BDA.Api.Common.Errors;
+using BDA.Api;
 using BDA.Application;
 using BDA.Infrastructure;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services
+        .AddPresentation()
         .AddApplication()
-        .AddInfrastructure(builder.Configuration)
-        .AddControllers();
-
-    builder.Services
-        .AddSingleton<ProblemDetailsFactory, BdaProblemDetailsFactory>();
+        .AddInfrastructure(builder.Configuration);
 }
 
 var app = builder.Build();
