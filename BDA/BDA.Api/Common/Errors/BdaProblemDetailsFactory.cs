@@ -41,7 +41,18 @@ public class BdaProblemDetailsFactory : ProblemDetailsFactory
         ModelStateDictionary modelStateDictionary, int? statusCode = null, string? title = null, string? type = null,
         string? detail = null, string? instance = null)
     {
-        throw new NotImplementedException();
+        statusCode ??= StatusCodes.Status400BadRequest;
+
+        var problemDetails = new ValidationProblemDetails
+        {
+            Status = statusCode.Value,
+            Title = title,
+            Type = type,
+            Detail = detail,
+            Instance = instance,
+        };
+
+        return problemDetails;
     }
 
     private void ApplyProblemDetailsDefaults(HttpContext httpContext, ProblemDetails problemDetails, int statusCode)

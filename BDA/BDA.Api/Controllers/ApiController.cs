@@ -1,6 +1,7 @@
 using BDA.Api.Common.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace BDA.Api.Controllers;
 
@@ -9,6 +10,11 @@ public class ApiController : ControllerBase
 {
     protected IActionResult Problem(List<Error> errors)
     {
+        if (TryHandleValidationErrors(errors, out var stateDictionary))
+        {
+            return ValidationProblem(stateDictionary);
+        }
+
         HttpContext.Items[HttpContextItemKeys.Errors] = errors;
         
         var error = errors.First();
@@ -21,5 +27,22 @@ public class ApiController : ControllerBase
         };
         
         return Problem(statusCode: statusCode, title: error.Description);
+    }
+
+    private static bool TryHandleValidationErrors(List<Error> errors, out ModelStateDictionary stateDictionary)
+    {
+        stateDictionary = new ModelStateDictionary();
+
+        if (errors.All(error => error.Type == ErrorType.Validation))
+        {
+            foreach (var err in errors)
+            {
+                stateDictionary.AddModelError(err.Code, err.Description);
+            }
+
+            return true;
+        }
+
+        return false;
     }
 }
