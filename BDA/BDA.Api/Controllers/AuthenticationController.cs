@@ -1,6 +1,7 @@
 using BDA.Application.Authentication.Commands.Register;
 using BDA.Application.Authentication.Queries.Login;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 using BDA.Contracts.Authentication;
 using BDA.Domain.Common.Errors;
@@ -10,6 +11,7 @@ using MediatR;
 namespace BDA.Api.Controllers;
 
 [Route("auth")]
+[AllowAnonymous]
 public class AuthenticationController(ISender mediator, IMapper mapper) : ApiController
 {
     [HttpPost("register")]
